@@ -8,8 +8,6 @@ const App = () => {
     let [calculate, setCalculate] = useState("");
 
 
-
-
     function handleCalculations(e){ 
             setCalculate(calculate + e.target.innerText)
     }
